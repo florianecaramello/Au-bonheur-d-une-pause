@@ -1,0 +1,175 @@
+
+<!doctype html>
+<html lang="fr">
+<head>
+  <title>Au bonheur d'une pause</title>
+  <meta charset="utf-8"> 
+  <meta name="description" content="échanger, partager, faire une pause : le café associatif 
+  de Barby vous accueil, petits et grands, à partager ces moments de détentes aux multiples facettes."/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <style>
+  /* Styles généraux */
+  body {
+    font-family:Sans-serif;
+    font-size:100%;
+    background:#ccc;
+  }
+  a {
+    color:#369;
+  }
+  p.mention {
+    margin: 1em;
+    color:#666;
+    clear:both;
+    padding-top:2em;
+  }
+  h1 {
+    padding:0;
+    color:rgb(48, 48, 48);
+    text-shadow:1px 1px 1px #aaa;
+    margin-bottom:0;
+    margin:1em;
+  }
+  h2 {
+    background:#B2D33A;
+    color:#fff;
+    margin:0;
+    padding:4px;
+  }
+  .stretch {
+    min-width:100%;
+    min-height:100%;
+    width:auto;
+    height:auto;
+    }
+  #menu ul, #menu li {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+  }
+  #menu li {
+    float:left;
+    width:20%;
+    text-align:center;
+  }
+  #menu a {
+    display:block;
+    background:#444;
+    color:#fff;
+    border-bottom:1px;
+    text-decoration:none;
+    line-height:200%;
+    padding:0 2em;
+  }
+  #menu a:hover {
+    background:#222;
+  }
+  
+  /* Disposition par défaut */
+  #main, #aside {
+    float:left;
+    background:#fff;
+    min-height:300px;
+    overflow:auto;
+    width:100%;
+    clear:both;
+  }
+  #aside {
+    background:#eee;
+  }
+  #menu {
+    width:100%;
+    overflow:auto;
+  }
+  
+  /* min-width pour moyennes résolutions */
+  @media screen and (min-width: 1024px) {
+    #main {
+      width:70%;
+      clear:none;
+    }
+    #aside {
+      width:30%;
+      clear:none;
+    }
+  }
+  
+  /* max-width pour faibles résolutions */
+  @media screen and (max-width: 640px) {
+    #menu a {
+      display:block;
+    }
+    #menu li {
+      float:none;
+      width:100%;
+    }
+    #main, #aside, #menu {
+      clear:both;
+      width:100%;
+    }
+  }
+  </style>
+</head>
+<body>  
+  <header class="jumbotron"><div id=fond style="text-align: center">
+    <img src=images\image_salle_de_jeu_bdp.jpg class=stretch/>
+    </div>
+    <h1 class="text-center">Bienvenue dans notre Café Associatif !</h1><br/>
+	<div id="menu">
+		<ul>
+			<li><a href="index.html">Accueil</a></li>
+      <li><a href="Actualités.html">Actualités</a></li>			
+      <li><a href="Ateliers">Ateliers</a></li>
+      <li><a href="Espace Adhérents">Espace Adhérents</a></li>
+      <li><a href="Contact">Contact</a></li>
+		</ul>
+	</div> 
+        
+  <section class="pb-2">
+    <h2 class="pb-2">Actualité du moment</h2>
+       <article>
+                  <h3>COVID 19</h3>
+                  <p>Suite au dicours du Président Mr MACRON, les obligations sanitaires obligent 
+                    les cafés à suspendre leurs activités. C'est pour cela que nous sommes obligé de 
+                    faire une pause.<br/> Nous espérons avoir le plaisirs de vite vous revoir !</p>
+                  <div class="text-right">
+                  </div>
+              </article>
+          </section>
+          <hr>
+          <section class="p-2">
+              <div class="row">
+                  <div class="col">
+                      <h2 class="pb-2" id="contact">Contact</h2>
+                      <div>
+                          <form>
+                              <div class="form-group">
+                                  <label for="email">Laissez-nous votre-mail</label>
+                                  <input type="email" class="form-control" id="email">
+                              </div>
+                              <div class="form-group">
+                                  <label for="message">Message</label>
+                                  <textarea class="form-control" id="message" rows="3"></textarea>
+                              </div>
+                              <button type="submit" class="btn btn-success">Envoyer le message</button>
+                          </form>
+                      </div>
+                  </div>
+                  
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+          </section>
+      </main>
+  </div>
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- Bootstrap CDN JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+
+<p class="mention">Page de démonstration du site internet Au Bonheur d'une Pause.</p>
+
+</body>
+</html>
